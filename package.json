@@ -1,0 +1,26 @@
+{
+  "name": "crc32c-stream",
+  "version": "0.0.0",
+  "description": "Get the crc32c calculation from a stream",
+  "license": "MIT",
+  "repository": "stephenplusplus/crc32c-stream",
+  "author": "Stephen Sawchuk <sawchuk@gmail.com>",
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "crc32c",
+    "hash",
+    "stream"
+  ],
+  "dependencies": {
+    "is-stream": "^1.0.1",
+    "sse4_crc32": "^3.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}

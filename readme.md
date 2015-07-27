@@ -10,7 +10,7 @@ $ npm install --save crc32c-stream
 var crcStream = require('crc32c-stream');
 var fs = require('fs');
 
-crcStream(fs.createReadStream('/unicorns.txt'), function(err, results) {
+crcStream(fs.createReadStream('./unicorns.txt'), function(err, results) {
   if (!err) {
     // results => rw==
   }
